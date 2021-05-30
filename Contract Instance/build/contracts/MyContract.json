@@ -32,15 +32,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getData\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_data\",\"type\":\"uint256\"}],\"name\":\"setData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/Sample.sol\":\"MyContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/Sample.sol\":{\"keccak256\":\"0x3595f75e833c2e8b7a8945f1a3bcc14f769f0636daa490006921243732275555\",\"urls\":[\"bzz-raw://132f4d4cb39f2f091c7cd19e576899577ba6f2fdc912fb0cdb5b3d08c3c5c7c6\",\"dweb:/ipfs/Qmbt1YVUYKVHbfsZiuZ67KiNNSW8oCwPJCTkGxtvg5GCwg\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633bc5de301460375780635b4b73a9146053575b600080fd5b603d607e565b6040518082815260200191505060405180910390f35b607c60048036036020811015606757600080fd5b81019080803590602001909291905050506087565b005b60008054905090565b806000819055505056fea265627a7a723158208a83754a5e1a739e6b7d8471c8091409222ad0857b0ac686c0ccca9d36a75bc864736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80633bc5de301460375780635b4b73a9146053575b600080fd5b603d607e565b6040518082815260200191505060405180910390f35b607c60048036036020811015606757600080fd5b81019080803590602001909291905050506087565b005b60008054905090565b806000819055505056fea265627a7a723158208a83754a5e1a739e6b7d8471c8091409222ad0857b0ac686c0ccca9d36a75bc864736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getData\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_data\",\"type\":\"uint256\"}],\"name\":\"setData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/MyContract.sol\":{\"keccak256\":\"0x3595f75e833c2e8b7a8945f1a3bcc14f769f0636daa490006921243732275555\",\"urls\":[\"bzz-raw://132f4d4cb39f2f091c7cd19e576899577ba6f2fdc912fb0cdb5b3d08c3c5c7c6\",\"dweb:/ipfs/Qmbt1YVUYKVHbfsZiuZ67KiNNSW8oCwPJCTkGxtvg5GCwg\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633bc5de301460375780635b4b73a9146053575b600080fd5b603d607e565b6040518082815260200191505060405180910390f35b607c60048036036020811015606757600080fd5b81019080803590602001909291905050506087565b005b60008054905090565b806000819055505056fea265627a7a723158208c1d386ae2ef379eeb0a6fa5e0bc7c145e9c3bf49f6bd812715c88cd7ddf825a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80633bc5de301460375780635b4b73a9146053575b600080fd5b603d607e565b6040518082815260200191505060405180910390f35b607c60048036036020811015606757600080fd5b81019080803590602001909291905050506087565b005b60008054905090565b806000819055505056fea265627a7a723158208c1d386ae2ef379eeb0a6fa5e0bc7c145e9c3bf49f6bd812715c88cd7ddf825a64736f6c63430005100032",
   "sourceMap": "34:274:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:274:0;;;;;;;",
   "deployedSourceMap": "34:274:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:274:0;;;;;;;;;;;;;;;;;;;;;;;;75:74;;;:::i;:::-;;;;;;;;;;;;;;;;;;;155:67;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;155:67:0;;;;;;;;;;;;;;;;;:::i;:::-;;75:74;116:4;138;;131:11;;75:74;:::o;155:67::-;210:5;203:4;:12;;;;155:67;:::o",
   "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract MyContract{\n    uint data;\n\n    function getData() external view returns(uint){\n        return data;\n    }\n\n    function setData(uint _data) external {\n        data = _data;\n    }\n\n    function setDataPrivate(uint _data) private {\n        data = _data + 10;\n    }\n}",
-  "sourcePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/Sample.sol",
+  "sourcePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/MyContract.sol",
   "ast": {
-    "absolutePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/Sample.sol",
+    "absolutePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/MyContract.sol",
     "exportedSymbols": {
       "MyContract": [
         34
@@ -439,7 +439,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/Sample.sol",
+      "absolutePath": "/home/debjit/Projects/Blockchain/Web3 JS/Contract Instance/contracts/MyContract.sol",
       "exportedSymbols": {
         "MyContract": [
           34
@@ -900,9 +900,17 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x1522cAD6d48bD087c92a705f8138E40326cdfcB1",
+      "transactionHash": "0x6ad57229a9d2f707b0110ad26c31a89bb404a75fea59207b70e8bedcdc52882c"
+    }
+  },
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-29T17:37:34.911Z",
+  "updatedAt": "2021-05-30T02:47:09.671Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
