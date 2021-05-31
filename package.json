@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "eth-cli": "^2.0.1",
     "ethereumjs-testrpc": "^6.0.3",
     "web3": "^1.2.1"
   }
