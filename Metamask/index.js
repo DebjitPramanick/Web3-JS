@@ -1,7 +1,6 @@
 const Web3 = require('web3')
 const MyContract = require('./build/contracts/MyContract.json')
 
-
 // Contract connected with web3
 
 const init = async () => {
@@ -15,7 +14,7 @@ const init = async () => {
     );
 
     // To get all the addresses
-    const addresses = await web3.eth.getAccounts()
+    const addresses = await web3.eth.getAccounts();
 
     // Calling a function
 
